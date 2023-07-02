@@ -1,0 +1,402 @@
+/* For universal Change */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header and Navbar */
+.nav_bar{
+    height: 5rem;
+}
+
+.nav_links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links ul li{
+    list-style: none;
+    margin: 40px 40px 20px 40px;
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000080;
+}
+
+.nav_links img{
+   height: 50px;
+   width: 50px;
+   margin: 0px 50px 0px 50px;
+}
+
+
+
+
+
+.nav_bar .bars{
+    position: absolute;
+    top:22px;
+    left: 94%;
+    font-size: 28px;
+    color:#fefeff ;
+}
+/* Homepage/Mainpage */
+#home{
+    display: flex;
+    justify-content: center;
+}
+
+.home_info{
+    height: 120vh;
+    width: 92%;
+    background-color: #242424;
+    border-radius: 40px;
+}
+
+.my_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Work{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    padding-top:5.5rem ;
+}
+.Work span{
+    font-size: 3.8rem;
+}
+
+.my_info p{
+    text-align: center;
+    max-width: 55%;
+    padding-top: 20px;
+    color:#a49e9e;
+    
+}
+
+.contact_button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.contact_button button{
+    background-color: rgb(255, 84, 22);
+    height: 2.4rem;
+    width: 10rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+}
+.contact_button button:hover{
+    background-color: #fff;
+    color: rgb(255, 84, 22);
+    transition: 1.5s;
+}
+
+
+#project_links{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 26rem;
+}
+
+.first_link{
+    height: 20rem;
+    width: 32rem;
+    background-image:url(./css_art/4832285.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fff;
+}
+.sec_link{
+    height: 20rem;
+    width: 32rem;
+    background-image: url(./web_development.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow:0px 0px 10px #fff;
+}
+.project{    
+    background-color: rgb(255, 84, 22);
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+    left: 20%;}
+
+.project:hover{
+    background-color: #fff;
+    color: rgb(255, 84, 22);
+    transition: 1.5s;
+}
+
+
+
+
+
+
+/* About Section CSS */
+#about{
+    display: flex;
+    margin-top: 5.5rem;
+    height: 22rem;
+    width: 100%;
+}
+.left_container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20rem;
+}
+.about_head img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid pink;
+}
+.about_head h1{
+    text-align: center;
+    color: #a49e9e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+.right_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 32rem;
+
+}
+.right_container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+}
+.right_container p{
+    font-size: 1.7rem;
+    padding-top: 2.8rem;
+
+}
+
+
+
+
+
+
+/* Work Section CSS Part */
+#work{
+    display: flex;
+    justify-content: center;
+}
+
+.work_info{
+    height: 96vh;
+    width: 92%;
+    background-color: #242424;
+    border-radius: 40px;
+}
+
+.work_head h1{
+    color: #a49e9e;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.work_first{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.work_sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.work_third{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.s_work{
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+#work a{
+    color: #a49e9e;
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 3.2rem 0 0 4rem;
+}
+#work a:hover{
+    color: orangered;
+}
+
+
+
+
+
+/* Quick View Of Project Section */
+#slideshow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slideshow h1{
+    color: #726e6e;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main_slide{
+    height: 30.5rem;
+    width: 80%;
+    margin-top: 3rem;
+    background-image: url(./project_slides/123.PNG);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider{
+    0%{
+       background-image: url(./project_slides/123.PNG);
+    }
+    25%{
+       background-image: url(./project_slides/CODING\ SKOOL.PNG);
+    }
+    50%{
+       background-image: url(./project_slides/landing\ pag.PNG);
+    }
+    75%{
+       background-image: url(./project_slides/login\ form.PNG);
+    }
+}
+
+
+
+/* contact Section CSS source Code */
+#contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact_info{
+    width: 92%;
+    height: 106vh;
+    background-color: #242424;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_head h1{
+    text-align: center;
+    font-size: 4.5rem;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 3rem;
+}
+
+.top_frame{
+    height: .5px;
+    width: 88%;
+    background-color: #928f8f;
+   margin-top: 3rem;
+}
+
+.contact_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 3rem;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.me_info p{
+    color: #726e6e;
+    padding-top: 1rem;
+}
+
+.services ul li{
+    list-style: none;
+    padding-top: 1.2rem;
+    color: #726e6e;
+}
+
+.social_icons ul li{
+     list-style: none;
+     text-align: center;
+     padding-top: 1rem;
+}
+.social_icons ul li a{
+    color: #726e6e;
+    text-decoration: none;
+}
+
+.web_details{
+    font-size: .8rem;
+    color: rgb(206, 189, 189);
+    padding-top: 1rem;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 1.2rem;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+.warning{
+    color: #fff;
+    text-align: center;
+}
